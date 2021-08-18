@@ -5,6 +5,6 @@ file.close()
 genom = ''.join(content)
 basensequenz = input('Fügen Sie hier die Genomsequenz ein').lower()
 if basensequenz in genom:
-    print(True)
+    pass
 else:
     print(False)
